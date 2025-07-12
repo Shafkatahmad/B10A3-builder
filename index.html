@@ -32,7 +32,7 @@
     </style>
   </head>
   <body class="font">
-    <header class="container mx-auto my-9 lg:my-14">
+    <header class="container mx-auto my-8 lg:my-14 p-8 lg:p-0 ">
       <!-- navbar -->
       <div class="navbar">
         <div class="navbar-start">
@@ -74,6 +74,7 @@
         </div>
         <div class="navbar-end">
           <div class="dropdown">
+            <!-- small buttton -->
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -89,18 +90,20 @@
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
-              <i class="fa-solid fa-magnifying-glass mr-4"></i>
-              <i class="fa-solid fa-cart-shopping mr-4"></i>
-              <div class="bg-[#ABEF5F] h-[40px] rounded-[32px] px-5 py-1">
+              
+            </div>
+            <!-- small icons -->
+            <i class="hidden fa-solid fa-magnifying-glass mr-4"></i>
+            <i class="hidden fa-solid fa-cart-shopping mr-4"></i>
+              <div class="hidden bg-[#ABEF5F] h-[40px] rounded-[32px] px-5 py-1">
                 <a class="mr-3">Book Consult</a>
                 <i
                   class="fa-solid fa-arrow-right bg-black text-white p-2 rounded-full -rotate-45"
                 ></i>
               </div>
-            </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              class="hidden menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li
                 class="text-gray-500 hover:text-black duration-300 ease-in-out hover:font-extrabold"
@@ -129,10 +132,10 @@
               </li>
             </ul>
           </div>
-          <i class="fa-solid fa-magnifying-glass mr-4"></i>
-          <i class="fa-solid fa-cart-shopping mr-4"></i>
-          <div class="bg-[#ABEF5F] h-[40px] rounded-[32px] px-5 py-1">
-            <a class="mr-3">Book Consult</a>
+          <i class="hidden lg:flex fa-solid fa-magnifying-glass border-2 border-gray-200 p-2 rounded-full mr-4"></i>
+          <i class="hidden lg:flex fa-solid fa-cart-shopping border-2 border-gray-200 p-2 rounded-full mr-4"></i>
+          <div class="hidden lg:flex  bg-[#ABEF5F] h-[40px] rounded-[32px] px-5 py-1">
+            <a class="text-xl font-bold mr-3">Book Consult</a>
             <i
               class="fa-solid fa-arrow-right bg-black text-white p-2 rounded-full -rotate-45"
             ></i>
@@ -140,8 +143,8 @@
         </div>
       </div>
       <!-- banner -->
-      <div class="hero lg:min-h-screen border-2 border-red-500">
-        <div class="hero-content text-center border-2 border-yellow-500">
+      <div class="hero lg:min-h-screen ">
+        <div class="hero-content text-center">
           <div class="max-w-full px-3 lg:px-10 border-2 border-red-50">
             <img class="mx-auto" src="./assets/banner.png" alt="" />
             <h1 class="text-3xl lg:text-6xl font-bold">
@@ -235,7 +238,7 @@ modern sophistication, featuring weathered wood, sleek metal accents.</i></p>
 </div>
       </section>
       <!-- work process -->
-       <section class="bg-gray-200 p-8 lg:p-20">
+       <section class=" bg-gray-200 p-8 lg:p-20">
         <div class="container mx-auto">
           <div class="text-center">
             <button class="text-gray-600 font-bold bg-white rounded-[24px] px-4 py-2 mb-4"><i class="fa-solid fa-arrow-right"></i> How we works</button>
@@ -296,6 +299,56 @@ modern sophistication, featuring weathered wood, sleek metal accents.</i></p>
           </div>
         </div>
        </section>
+       <!-- challedge part- what we offer -->
+        <section class=" container mx-auto p-8 lg:p-20">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- photo1 -->
+            <div class=" text-center flex flex-col justify-center mb-6">
+              <img class=" rounded-xl" src="./assets/challenge-img3.jpg" alt="">
+              <div class="-mt-10">
+                <i class=" fa-solid fa-house-chimney text-gray-500 text-2xl p-6 bg-yellow-300 rounded-full cursor-pointer"></i>
+              <h4 class="text-gray-500 text-xl font-bold">Interior Design</h4>
+              </div>
+            </div>
+            <!-- photo2 -->
+            <div class=" text-center flex flex-col justify-center mb-6">
+              <img class=" rounded-xl" src="./assets/challenge-img2.jpg" alt="">
+              <div class="-mt-10">
+                <i class=" fa-solid fa-house-chimney text-gray-500 text-2xl p-6 bg-yellow-300 rounded-full cursor-pointer"></i>
+              <h4 class="text-gray-500 text-xl font-bold">Interior Design</h4>
+              </div>
+            </div>
+            <!-- photo3 -->
+            <div class="text-center flex flex-col justify-center mb-6">
+              <img class=" rounded-xl" src="./assets/challenge-img1.jpg" alt="">
+              <div class="-mt-10">
+                <i class=" fa-solid fa-house-chimney text-gray-500 text-2xl p-6 bg-yellow-300 rounded-full cursor-pointer"></i>
+              <h4 class="text-gray-500 text-xl font-bold">Interior Design</h4>
+              </div>  
+              </div>
+            <div class="mt-10 lg:mt-[50px] mb-5">
+                <h2 class="text-4xl font-bold">We believe that “if it can be imagined, it can be created.”</h2>
+              </div>
+              <div class="lg:mt-[50px] lg:col-span-2 lg:ml-36">
+                <h4 class="text-2xl font-semibold mb-6">Our team offers the expertise and foresight to assist on a project from inception to completion.</h4>
+                <p class="text-gray-500 text-sm">We offer a complete building service from initial cost estimates for any size job, development proposals, design and cost planning, project management through to construction delivery.</p>
+              </div>
+            </div>
+            <!-- text
+             <div class="flex mt-10">
+              <div>
+                <h2 class="text-4xl font-bold">We believe that “if it can be imagined, it can be created.”</h2>
+              </div>
+              <div>
+                <h4 class="text-3xl font-semibold">Our team offers the expertise and foresight to assist on a project from inception to completion.</h4>
+                <p class="text-gray-500">We offer a complete building service from initial cost estimates for any size job, development proposals, design and cost planning, project management through to construction delivery.</p>
+              </div>
+             </div> -->
+            <!-- <h4 class="hidden lg:flex">Construction</h4> -->
+            <!-- <h4 class="hidden lg:flex">Interior Design</h4> -->
+            <!-- <h4 class="hidden lg:flex">Renovation</h4> -->
+          </div>
+        </section>
        <!-- latest portfolio -->
         <section class="p-8 lg:p-20">
           <!-- top text -->
@@ -348,8 +401,8 @@ modern sophistication, featuring weathered wood, sleek metal accents.</i></p>
           </div>
         </section>
         <!-- let's connect -->
-         <section class="lets-connect p-8 lg:py-20">
-          <div class="container mx-auto">
+         <section class="lets-connect p-8 lg:p-20">
+          <div class="container mx-auto lg:p-20">
             <!-- text -->
              <div class="text-center">
               <button class="text-gray-600 font-bold bg-[#ABEF5F] rounded-[24px] px-4 py-2 mb-4"><i class="fa-solid fa-arrow-right"></i> Let’s Connect</button>
