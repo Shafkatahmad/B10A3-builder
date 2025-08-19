@@ -1,7 +1,7 @@
 # Renterio - Rental & Interior Design Website
 
 Rinterio is a modern rental and interior design website showcasing professional services, portfolio works, and client engagement features.  
-It is built with **HTML5, CSS and JavaScript**, ensuring a fully responsive, user-friendly, and visually appealing design.
+It is built with **HTML5, CSS3**, ensuring a fully responsive, user-friendly, and visually appealing design.
 
 ## Features
 
